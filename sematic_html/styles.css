@@ -1,0 +1,66 @@
+/*Volgens w3schools selecteert stericoontje alles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    padding: 20px;
+
+}
+header 
+{
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav 
+{
+    margin-bottom: 20px;
+}
+nav a
+{
+    color:blue;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    background-color: cadetblue;
+    color: black;
+}
+article
+{
+    margin-bottom: 20px;
+}
+aside
+{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+figure
+{
+    text-align: center;
+    margin: 20px;
+}
+
+figure img
+{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid darkgreen;
+}
+footer
+{
+    text-align: center;
+    padding: 10px;
+    background-color: darkgoldenrod;
+    color: white;
+}
